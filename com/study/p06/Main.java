@@ -14,7 +14,7 @@ public class Main {
         double price = scanner.nextDouble();
 
         // TODO：计算打八折后的价格。
-        double finalPrice = price;
+        double finalPrice = price * DISCOUNT;
         System.out.println("折后价格：" + finalPrice);
     }
 }
