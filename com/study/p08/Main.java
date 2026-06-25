@@ -16,7 +16,7 @@ public class Main {
 
     public static void printWelcome(String name) {
         // TODO：输出“欢迎你，xxx”。
-        System.out.println("TODO");
+        System.out.println("欢迎你，"+name);
     }
 }
 
