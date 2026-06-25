@@ -15,7 +15,7 @@ public class Main {
         boolean vip = scanner.nextBoolean();
 
         // TODO：年龄小于 18 或者是会员，就可以享受优惠。
-        boolean canDiscount = false;
+        boolean canDiscount = age < 18 || vip == true;
         System.out.println("是否可享受优惠：" + canDiscount);
     }
 }
