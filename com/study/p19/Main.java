@@ -13,8 +13,8 @@ public class Main {
         double number = scanner.nextDouble();
 
         // TODO：计算 number 的平方和平方根。
-        double square = 0;
-        double root = 0;
+        double square = Math.pow(number, 2);
+        double root = Math.sqrt(number);
         System.out.println("平方：" + square);
         System.out.println("平方根：" + root);
     }
