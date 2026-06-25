@@ -15,7 +15,7 @@ public class Main {
         int studentAge = scanner.nextInt();
 
         // TODO：新增一个 boolean 变量 isAdult，判断年龄是否大于等于 18。
-        boolean isAdult = false;
+        boolean isAdult = studentAge >= 18;
         System.out.println(studentName + " 是否成年：" + isAdult);
     }
 }
