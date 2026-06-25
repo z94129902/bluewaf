@@ -14,7 +14,7 @@ public class Main {
         double radius = scanner.nextDouble();
 
         // TODO：面积公式是 PI * 半径 * 半径。
-        double area = 0.0;
+        double area = PI * radius * radius;
         System.out.println("圆面积：" + area);
     }
 }
