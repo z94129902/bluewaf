@@ -13,7 +13,7 @@ public class Main {
         int score = scanner.nextInt();
 
         // TODO：如果 score 大于等于 60，输出“及格”，否则输出“不及格”。
-        if (false) {
+        if (score >= 60) {
             System.out.println("及格");
         } else {
             System.out.println("不及格");
