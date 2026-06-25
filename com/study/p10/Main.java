@@ -13,11 +13,11 @@ public class Main {
         int stock = scanner.nextInt();
 
         // TODO：卖出一件，库存减少 1。
-        stock = stock;
+        stock = stock - 1;
         System.out.println("卖出一件后库存：" + stock);
 
         // TODO：补货一件，库存增加 1。
-        stock = stock;
+        stock = stock + 1;
         System.out.println("补货一件后库存：" + stock);
     }
 }
