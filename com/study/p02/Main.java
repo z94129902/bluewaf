@@ -13,7 +13,7 @@ public class Main {
         String city = scanner.nextLine();
 
         // TODO：把 city 拼接到 result 中。
-        String result = "我来自：" + "TODO";
+        String result = "我来自：" + "南京";
         System.out.println(result);
     }
 }
