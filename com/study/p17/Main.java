@@ -21,7 +21,12 @@ public class Main {
             case "+":
                 result = a + b;
                 break;
-            // TODO：补全 - * / 三种情况。
+            case "-":
+            	result = a - b;
+            	break;
+            case "*":
+            	result = a * b;
+            	break;
             default:
                 System.out.println("暂不支持该运算符");
                 return;
