@@ -15,10 +15,10 @@ public class Main {
         int b = scanner.nextInt();
 
         System.out.println("和：" + (a + b));
-        System.out.println("差：" + 0); // TODO
-        System.out.println("积：" + 0); // TODO
-        System.out.println("商：" + 0); // TODO：假设 b 不为 0
-        System.out.println("余数：" + 0); // TODO
+        System.out.println("差：" + (a - b)); // TODO
+        System.out.println("积：" + (a * b)); // TODO
+        System.out.println("商：" + (a / b)); // TODO：假设 b 不为 0
+        System.out.println("余数：" + (a % b)); // TODO
     }
 }
 
