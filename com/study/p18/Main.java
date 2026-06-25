@@ -15,8 +15,8 @@ public class Main {
         int b = scanner.nextInt();
 
         // TODO：使用 Math.max 求较大值，使用 Math.abs 求 a-b 的绝对值。
-        int max = 0;
-        int distance = 0;
+        int max = Math.max(a, b);
+        int distance = Math.abs(a - b);
         System.out.println("较大值：" + max);
         System.out.println("距离：" + distance);
     }
