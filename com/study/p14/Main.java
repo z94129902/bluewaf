@@ -16,7 +16,7 @@ public class Main {
 
         int max;
         // TODO：补全 if 条件。
-        if (false) {
+        if (a >= b) {
             max = a;
         } else {
             max = b;
