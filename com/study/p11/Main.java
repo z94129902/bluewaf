@@ -15,9 +15,9 @@ public class Main {
         int b = scanner.nextInt();
 
         // TODO：补全三个布尔表达式。
-        boolean greater = false;
-        boolean equal = false;
-        boolean lessOrEqual = false;
+        boolean greater = a > b;
+        boolean equal = a == b;
+        boolean lessOrEqual = a <= b;
 
         System.out.println("a 是否大于 b：" + greater);
         System.out.println("a 是否等于 b：" + equal);
