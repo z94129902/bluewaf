@@ -15,7 +15,7 @@ public class Main {
         int b = scanner.nextInt();
 
         // TODO：把 0 改成 a 和 b 的和。
-        int sum = 0;
+        int sum = a + b;
         System.out.println("两数之和：" + sum);
     }
 }
