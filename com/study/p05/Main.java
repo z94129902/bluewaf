@@ -16,8 +16,9 @@ public class Main {
 
         // TODO：补全三行代码，交换 a 和 b。
         int temp = 0;
-        // a = ?
-        // b = ?
+         temp = a;
+         a = b;
+         b = temp;
 
         System.out.println("交换后 a=" + a + ", b=" + b);
     }
