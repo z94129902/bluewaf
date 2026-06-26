@@ -15,6 +15,7 @@ public class Main {
 
         // TODO：使用 for 循环，让 result 依次乘以 1 到 n。
         for (int i = 1; i <= n; i++) {
+        	result = result * i;
         }
 
         System.out.println(n + "! = " + result);
