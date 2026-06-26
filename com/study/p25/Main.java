@@ -15,7 +15,7 @@ public class Main {
         for (int i = 0; i < numbers.length; i++) {
             System.out.print("请输入第 " + (i + 1) + " 个整数：");
             numbers[i] = scanner.nextInt();
-            // TODO：把当前元素累加到 sum。
+            sum = sum + numbers[i];
         }
 
         System.out.println("总和：" + sum);
