@@ -13,7 +13,7 @@ public class Main {
         String id = scanner.nextLine();
 
         // TODO：出生年份通常是第 7 到第 10 位，substring 下标从 0 开始。
-        String year = "TODO";
+        String year = id.substring(6, 10);
         System.out.println("出生年份：" + year);
     }
 }
