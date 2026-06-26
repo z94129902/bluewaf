@@ -13,9 +13,9 @@ public class Main {
         char ch = scanner.next().charAt(0);
 
         // TODO：使用 Character.isDigit 和 Character.isLetter。
-        if (false) {
+        if (Character.isDigit(ch)) {
             System.out.println("数字");
-        } else if (false) {
+        } else if (Character.isLetter(ch)) {
             System.out.println("字母");
         } else {
             System.out.println("其他字符");
