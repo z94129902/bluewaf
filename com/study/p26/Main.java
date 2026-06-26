@@ -19,6 +19,9 @@ public class Main {
         int max = numbers[0];
         for (int i = 1; i < numbers.length; i++) {
             // TODO：如果 numbers[i] 比 max 大，就更新 max。
+        	if (numbers[i] > max) {
+        		max = numbers[i];
+        	}
         }
 
         System.out.println("最大值：" + max);
