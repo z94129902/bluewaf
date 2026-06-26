@@ -15,7 +15,9 @@ public class Main {
         String second = scanner.next();
 
         StringBuffer buffer = new StringBuffer();
-        // TODO：依次追加 first、空格、second。
+        buffer.append("first");
+        buffer.append(" ");
+        buffer.append("second");
         String joined = buffer.toString();
         String reversed = buffer.reverse().toString();
         System.out.println("拼接结果：" + joined);
