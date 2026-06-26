@@ -13,7 +13,7 @@ public class Main {
         String text = scanner.nextLine();
 
         // TODO：调用 text.length()。
-        int length = 0;
+        int length = text.length();
         System.out.println("字符数量：" + length);
     }
 }
