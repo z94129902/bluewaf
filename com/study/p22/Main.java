@@ -15,7 +15,7 @@ public class Main {
         String password = scanner.nextLine();
 
         // TODO：用户名为 admin 且密码为 123456 时登录成功。
-        boolean success = false;
+        boolean success = username.equals("admin") && password.equals("123456");
         System.out.println(success ? "登录成功" : "登录失败");
     }
 }
