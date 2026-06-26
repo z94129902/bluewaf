@@ -15,6 +15,9 @@ public class Main {
             System.out.print("请输入第 " + i + " 个整数：");
             int number = scanner.nextInt();
             // TODO：如果 number 是偶数，count 加 1。
+            if(number%2 == 0) {
+            	count++;
+            }
         }
 
         System.out.println("偶数个数：" + count);
