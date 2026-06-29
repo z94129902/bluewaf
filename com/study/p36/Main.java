@@ -24,6 +24,7 @@ class Person {
 
     Person() {
         // TODO：每创建一个对象，count 加 1。
+    	Person.count ++;
     }
 }
 
