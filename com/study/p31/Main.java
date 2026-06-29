@@ -9,7 +9,7 @@ public class Main {
         // TODO：外层循环控制行，内层循环控制列。
         for (int i = 1; i <= 9; i++) {
             for (int j = 1; j <= i; j++) {
-                System.out.print("TODO ");
+                System.out.print(i * j);
             }
             System.out.println();
         }
