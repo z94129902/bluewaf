@@ -22,11 +22,11 @@ class BankAccount {
     double balance = 0;
 
     void deposit(double money) {
-        // TODO：余额增加 money。
+        this.balance += money;
     }
 
     void withdraw(double money) {
-        // TODO：余额减少 money。
+        this.balance -= money;
     }
 }
 
