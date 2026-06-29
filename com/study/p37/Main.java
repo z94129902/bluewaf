@@ -20,12 +20,12 @@ class User {
     private String nickname;
 
     public void setNickname(String nickname) {
-        // TODO：把参数赋值给成员变量。
+        this.nickname = nickname;
     }
 
     public String getNickname() {
         // TODO：返回成员变量 nickname。
-        return "";
+        return this.nickname;
     }
 }
 
