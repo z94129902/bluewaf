@@ -18,7 +18,11 @@ public class Main {
 
     public static int max(int a, int b) {
         // TODO：返回 a 和 b 中较大的值。
-        return 0;
+        if(a >= b) {
+        	return a;
+        } else {
+        	return b;
+        }
     }
 }
 
