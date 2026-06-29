@@ -29,10 +29,14 @@ class Animal {
 }
 
 class Dog extends Animal {
-    // TODO：重写 speak，输出“小狗汪汪叫”。
+    void speak() {
+    	System.out.println("小狗汪汪叫");
+    }
 }
 
 class Cat extends Animal {
-    // TODO：重写 speak，输出“小猫喵喵叫”。
+    void speak() {
+    	System.out.println("小猫喵喵叫");
+    }
 }
 
