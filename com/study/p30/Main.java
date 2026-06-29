@@ -18,6 +18,15 @@ public class Main {
             System.out.print("请选择：");
             choice = scanner.nextInt();
             // TODO：根据 choice 输出不同提示。
+            if(choice == 1) {
+            	System.out.println("学习Java");
+            } else if (choice == 2) {
+            	System.out.println("做练习题");
+            } else if (choice == 0) {
+            	System.out.println("退出");
+            } else {
+            	System.out.println("无效");
+            }
         } while (choice != 0);
 
         System.out.println("程序结束");
