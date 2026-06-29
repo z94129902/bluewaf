@@ -21,11 +21,11 @@ public class Main {
     }
 
     public static int add(int a, int b) {
-        return 0; // TODO
+        return a + b;
     }
 
     public static double add(double a, double b) {
-        return 0.0; // TODO
+        return a + b;
     }
 }
 
