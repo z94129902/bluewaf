@@ -24,7 +24,8 @@ class Student {
     int age;
 
     Student(String name, int age) {
-        // TODO：把参数赋值给成员变量。
+        this.name = name;
+        this.age = age;
     }
 
     void show() {
