@@ -15,7 +15,7 @@ public class Main {
         for (int i = 1; i <= 3; i++) {
             System.out.print("请输入第 " + i + " 个名字：");
             String name = scanner.nextLine();
-            // TODO：把 name 添加到 names。
+            names.add(name);
         }
 
         for (String name : names) {
